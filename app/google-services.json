@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_id": "gcm-demo-1218",
+    "project_number": "407386510400",
+    "name": "GCM-Demo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407386510400:android:1aff6927991bd858",
+        "client_id": "android:org.neurobin.aapps.gcmclient",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "org.neurobin.aapps.gcmclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407386510400:android:226f6a1a88a40a3c",
+        "client_id": "android:org.neurobin.aapps.pushnotificationgcmclient",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "org.neurobin.aapps.pushnotificationgcmclient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

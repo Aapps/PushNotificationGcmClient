@@ -1,8 +1,6 @@
 package org.neurobin.aapps.pushnotificationgcmclient;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -15,7 +13,7 @@ public class GCMCommonUtils {
 
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     // put your server registration url here, must end with a /
-    public static final String SERVER_URL = "https://neurobin.org/api/android/gcm/gcm-server-demo/";
+    public static final String SERVER_URL = "https://neurobin.org/api/android/gcm/gcmsender/";
 
     public static String notificationType[] = {"default", "type1"};
 
@@ -28,12 +26,6 @@ public class GCMCommonUtils {
             "org.neurobin.aapps.pushnotificationclient";
 
     static final String EXTRA_MESSAGE = "message";
-
-    static void displayMessage(Context context, String message) {
-        Intent intent = new Intent(DISPLAY_MESSAGE_ACTION);
-        intent.putExtra(EXTRA_MESSAGE, message);
-        context.sendBroadcast(intent);
-    }
 
 
     /**

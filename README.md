@@ -1,7 +1,7 @@
 *******************************************
 GCM Client app implementation for Android.
 *******************************************
-For a complete tutorial on how you can make use of this project visit [this link](https://neurobin.org.local/docs/android/push-notification-gcm-client-server/).
+For a complete tutorial on how you can make use of this project visit [this link](https://neurobin.org/docs/android/push-notification-gcm-client-server/).
 #Features:
 
 1. Client app will register with GCM using an intent service.
